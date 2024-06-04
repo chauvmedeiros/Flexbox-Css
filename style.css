@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: #282626;
+
+}
+
+header{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(22, 22, 22);
+    justify-content: center;
+
+}
+.nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 48px;
+    height: 48px;
+    background-color: yellow;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+
+}
+.nav-item{
+    margin: 0px 16px;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    opacity: 0.5;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 8px 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media scree and (max-width: 960px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+.container-item-1{
+    flex: 6 1 400px;
+    margin-right: 8px;
+    padding: 16px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.video-main{
+    background-color: #ccc;
+    height: 340px;
+    border-radius: 10px;
+
+}
+
+.container-item-2{
+    flex: 1 1 200px;
+    margin-left: 8px;
+    padding: 16px;
+    margin: 8px;
+}
+
+h3{
+    line-height: 130%;
+    margin: 4px 0px;
+    color: #fff;
+
+}
+p{
+    color: #dfd5d5;
+}
+
+.tumb{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #ccc;
+    flex: 0 1 auto;
+    margin-right: 8px;
+
+
+}
+
+.description{
+    flex: 1 1 auto;
+}
